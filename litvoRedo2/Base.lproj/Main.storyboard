@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LLP-2q-KiQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <segue destination="iJz-k5-6Xg" kind="show" identifier="signUpClick" animates="NO" id="Bbl-NQ-RWb"/>
+                        <segue destination="LLP-2q-KiQ" kind="show" identifier="loginSuccessful" id="Y1O-SS-bD8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="136"/>
+        </scene>
+        <!--Sign UpVC-->
+        <scene sceneID="HKN-Sd-QSu">
+            <objects>
+                <viewController id="iJz-k5-6Xg" customClass="SignUpVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="Qe6-3g-5xD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="0LF-N4-FUP"/>
+                    </view>
+                    <connections>
+                        <segue destination="LLP-2q-KiQ" kind="show" identifier="signUpSuccessful" id="Y6H-TM-92D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lBV-KC-pV8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1002" y="137"/>
+        </scene>
+        <!--Create-->
+        <scene sceneID="tVY-i3-zPf">
+            <objects>
+                <viewController id="rOG-cL-MHI" customClass="SetEventVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="AW7-zH-so8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="W2x-6z-Ccb"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Create" image="litvoMainIcon" id="82k-ie-yeM"/>
+                    <navigationItem key="navigationItem" id="ZfZ-KK-3H7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ts2-KO-Vmi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2190" y="1026"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="xVe-X6-4yo">
+            <objects>
+                <viewController id="IQO-aN-cqZ" customClass="FriendVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="WSh-wV-e2g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="gTs-Ut-tpM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="tabBarUser" id="DA9-vl-0nN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DHC-j0-ZlG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2190" y="1786"/>
+        </scene>
+        <!--New MessageVC-->
+        <scene sceneID="mUL-zi-Q27">
+            <objects>
+                <viewController id="bSO-Tw-jHt" customClass="NewMessageVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="ZSk-gU-wA4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="W4H-MF-A6z"/>
+                    </view>
+                    <connections>
+                        <segue destination="4Tz-sL-urw" kind="show" identifier="newMessageToChatLog" id="aRZ-zI-YQp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0eF-kI-U0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3105" y="3224"/>
+        </scene>
+        <!--Chat LogVC-->
+        <scene sceneID="Fbe-on-etQ">
+            <objects>
+                <viewController id="4Tz-sL-urw" customClass="ChatLogVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="4FJ-Hc-2Rq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="tRH-qW-xJS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sC3-iM-jZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3996" y="3224"/>
+        </scene>
+        <!--Public-->
+        <scene sceneID="hPh-QT-1ed">
+            <objects>
+                <viewController id="PEO-Hq-obq" customClass="PublicEventsVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="zqg-HI-HgH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="W7y-Nt-8zP"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Public" image="litvoEarth" id="tl8-8o-LKx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tpp-94-wb9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2190" y="2516"/>
+        </scene>
+        <!--Messages-->
+        <scene sceneID="cIJ-ea-E6h">
+            <objects>
+                <viewController id="qqP-yC-RLu" customClass="MessageLogVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="J9G-bG-2Cs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="rJY-Yy-jf7"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Messages" image="litvoMessage" id="c2n-OZ-Wi6"/>
+                    <connections>
+                        <segue destination="bSO-Tw-jHt" kind="show" identifier="newMessage" id="B7B-5v-BP2"/>
+                        <segue destination="4Tz-sL-urw" kind="show" identifier="messageLogToChatLog" id="8AA-n0-qyo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ysP-0M-5qX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2180" y="3225"/>
+        </scene>
+        <!--NavVC-->
+        <scene sceneID="4S7-jN-gPm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LLP-2q-KiQ" customClass="NavVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xVE-lC-jUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0Xh-wE-5ZP" kind="relationship" relationship="rootViewController" id="qzU-8p-mFs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdD-o3-x6r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="580.79999999999995" y="1027.2863568215894"/>
+        </scene>
+        <!--TabVC-->
+        <scene sceneID="NMR-pi-Ewq">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0Xh-wE-5ZP" customClass="TabVC" customModule="litvoRedo2" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="N9Z-Bw-3AE"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="1UU-oF-BFT">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="rOG-cL-MHI" kind="relationship" relationship="viewControllers" id="MFs-9S-dGK"/>
+                        <segue destination="IQO-aN-cqZ" kind="relationship" relationship="viewControllers" id="yYo-nQ-DWm"/>
+                        <segue destination="PEO-Hq-obq" kind="relationship" relationship="viewControllers" id="arc-dt-0NP"/>
+                        <segue destination="qqP-yC-RLu" kind="relationship" relationship="viewControllers" id="NN3-fZ-4Yu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BF5-ds-rYq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1391" y="1026"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="litvoEarth" width="32" height="32"/>
+        <image name="litvoMainIcon" width="30" height="30"/>
+        <image name="litvoMessage" width="32" height="32"/>
+        <image name="tabBarUser" width="32" height="31"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Y1O-SS-bD8"/>
+        <segue reference="8AA-n0-qyo"/>
+    </inferredMetricsTieBreakers>
+</document>

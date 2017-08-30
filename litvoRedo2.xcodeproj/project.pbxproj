@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1476E41F452B8D00ADB47D /* PublicEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1476E31F452B8D00ADB47D /* PublicEventsVC.swift */; };
+		0B1476E61F45339300ADB47D /* PublicEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1476E51F45339300ADB47D /* PublicEventCell.swift */; };
+		0B31F21E1F493B8900D69019 /* MessageLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B31F21D1F493B8900D69019 /* MessageLogVC.swift */; };
+		0B31F2201F493FFC00D69019 /* NewMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B31F21F1F493FFC00D69019 /* NewMessageVC.swift */; };
+		0B31F2221F49401F00D69019 /* ChatLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B31F2211F49401F00D69019 /* ChatLogVC.swift */; };
+		0B3A9C551F421188007875B5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3A9C541F421188007875B5 /* LoginVC.swift */; };
+		0B56BF021F433800007D9A96 /* NavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B56BF011F433800007D9A96 /* NavVC.swift */; };
+		0B56BF041F43381F007D9A96 /* TabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B56BF031F43381F007D9A96 /* TabVC.swift */; };
+		0B56BF061F433C13007D9A96 /* SetEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B56BF051F433C13007D9A96 /* SetEventVC.swift */; };
+		0B56BF091F43DD60007D9A96 /* GMSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B56BF081F43DD60007D9A96 /* GMSExtension.swift */; };
+		0B56BF0D1F43E3CA007D9A96 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B56BF0C1F43E3CA007D9A96 /* User.swift */; };
+		0B56BF0F1F43E420007D9A96 /* PublicEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B56BF0E1F43E420007D9A96 /* PublicEvent.swift */; };
+		0B6F59ED1F401EE800E8FD6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F59EC1F401EE800E8FD6A /* AppDelegate.swift */; };
+		0B6F59F21F401EE800E8FD6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F59F01F401EE800E8FD6A /* Main.storyboard */; };
+		0B6F59F41F401EE800E8FD6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F59F31F401EE800E8FD6A /* Assets.xcassets */; };
+		0B6F59F71F401EE800E8FD6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6F59F51F401EE800E8FD6A /* LaunchScreen.storyboard */; };
+		0BA961501F4296C500AEAE98 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA9614F1F4296C500AEAE98 /* SignUpVC.swift */; };
+		0BD0A32A1F4B669A00BB8897 /* ChatInputContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD0A3291F4B669A00BB8897 /* ChatInputContainer.swift */; };
+		0BD0F6EE1F4C2461003A222C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BD0F6ED1F4C2461003A222C /* GoogleService-Info.plist */; };
+		0BD0F6F01F4C92CB003A222C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD0F6EF1F4C92CB003A222C /* Message.swift */; };
+		0BD0F6F21F4C944D003A222C /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD0F6F11F4C944D003A222C /* ChatMessageCell.swift */; };
+		0BD82B221F449BFC00FC58F1 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD82B211F449BFC00FC58F1 /* FriendCell.swift */; };
+		0BD82B251F449CE800FC58F1 /* FriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD82B241F449CE800FC58F1 /* FriendVC.swift */; };
+		0BD82B271F449EDA00FC58F1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD82B261F449EDA00FC58F1 /* ImageCache.swift */; };
+		0BE11AB81F49464900183A30 /* NewMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE11AB71F49464900183A30 /* NewMessageCell.swift */; };
+		33D256752F4B9C1F62319542 /* Pods_litvoRedo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B6FA0DE6A7D7931E4A4161 /* Pods_litvoRedo2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B1476E31F452B8D00ADB47D /* PublicEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicEventsVC.swift; sourceTree = "<group>"; };
+		0B1476E51F45339300ADB47D /* PublicEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicEventCell.swift; sourceTree = "<group>"; };
+		0B31F21D1F493B8900D69019 /* MessageLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLogVC.swift; sourceTree = "<group>"; };
+		0B31F21F1F493FFC00D69019 /* NewMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageVC.swift; sourceTree = "<group>"; };
+		0B31F2211F49401F00D69019 /* ChatLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogVC.swift; sourceTree = "<group>"; };
+		0B3A9C541F421188007875B5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0B56BF011F433800007D9A96 /* NavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavVC.swift; sourceTree = "<group>"; };
+		0B56BF031F43381F007D9A96 /* TabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVC.swift; sourceTree = "<group>"; };
+		0B56BF051F433C13007D9A96 /* SetEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetEventVC.swift; sourceTree = "<group>"; };
+		0B56BF081F43DD60007D9A96 /* GMSExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMSExtension.swift; sourceTree = "<group>"; };
+		0B56BF0C1F43E3CA007D9A96 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0B56BF0E1F43E420007D9A96 /* PublicEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicEvent.swift; sourceTree = "<group>"; };
+		0B6F59E91F401EE800E8FD6A /* litvoRedo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = litvoRedo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6F59EC1F401EE800E8FD6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B6F59F11F401EE800E8FD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B6F59F31F401EE800E8FD6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B6F59F61F401EE800E8FD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B6F59F81F401EE800E8FD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA9614F1F4296C500AEAE98 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		0BD0A3291F4B669A00BB8897 /* ChatInputContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputContainer.swift; sourceTree = "<group>"; };
+		0BD0F6ED1F4C2461003A222C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BD0F6EF1F4C92CB003A222C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0BD0F6F11F4C944D003A222C /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		0BD82B211F449BFC00FC58F1 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		0BD82B241F449CE800FC58F1 /* FriendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendVC.swift; sourceTree = "<group>"; };
+		0BD82B261F449EDA00FC58F1 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		0BE11AB71F49464900183A30 /* NewMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageCell.swift; sourceTree = "<group>"; };
+		360C5D6E13CA7BC7952012CD /* Pods-litvoRedo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-litvoRedo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-litvoRedo2/Pods-litvoRedo2.debug.xcconfig"; sourceTree = "<group>"; };
+		793C8C215A5AE54D8F716F84 /* Pods-litvoRedo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-litvoRedo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-litvoRedo2/Pods-litvoRedo2.release.xcconfig"; sourceTree = "<group>"; };
+		90B6FA0DE6A7D7931E4A4161 /* Pods_litvoRedo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_litvoRedo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B6F59E61F401EE800E8FD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D256752F4B9C1F62319542 /* Pods_litvoRedo2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B31F21C1F493B6300D69019 /* MessageScreens */ = {
+			isa = PBXGroup;
+			children = (
+				0B31F21D1F493B8900D69019 /* MessageLogVC.swift */,
+				0B31F21F1F493FFC00D69019 /* NewMessageVC.swift */,
+				0B31F2211F49401F00D69019 /* ChatLogVC.swift */,
+			);
+			path = MessageScreens;
+			sourceTree = "<group>";
+		};
+		0B56BF001F4337DD007D9A96 /* EmbeddedStyling */ = {
+			isa = PBXGroup;
+			children = (
+				0B56BF011F433800007D9A96 /* NavVC.swift */,
+				0B56BF031F43381F007D9A96 /* TabVC.swift */,
+			);
+			path = EmbeddedStyling;
+			sourceTree = "<group>";
+		};
+		0B56BF071F437717007D9A96 /* EventScreens */ = {
+			isa = PBXGroup;
+			children = (
+				0B56BF051F433C13007D9A96 /* SetEventVC.swift */,
+				0B1476E31F452B8D00ADB47D /* PublicEventsVC.swift */,
+			);
+			path = EventScreens;
+			sourceTree = "<group>";
+		};
+		0B56BF0A1F43DE62007D9A96 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B56BF081F43DD60007D9A96 /* GMSExtension.swift */,
+				0BD82B261F449EDA00FC58F1 /* ImageCache.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0B56BF0B1F43E3B4007D9A96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B56BF0C1F43E3CA007D9A96 /* User.swift */,
+				0B56BF0E1F43E420007D9A96 /* PublicEvent.swift */,
+				0BD0F6EF1F4C92CB003A222C /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B6F59E01F401EE700E8FD6A = {
+			isa = PBXGroup;
+			children = (
+				0B6F59EB1F401EE800E8FD6A /* litvoRedo2 */,
+				0B6F59EA1F401EE800E8FD6A /* Products */,
+				55DF73EF95ED7ED3867CF0ED /* Pods */,
+				CDB57957D41EAA981FF0F475 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B6F59EA1F401EE800E8FD6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F59E91F401EE800E8FD6A /* litvoRedo2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B6F59EB1F401EE800E8FD6A /* litvoRedo2 */ = {
+			isa = PBXGroup;
+			children = (
+				0B31F21C1F493B6300D69019 /* MessageScreens */,
+				0BD82B231F449CC800FC58F1 /* FriendScreens */,
+				0BD82B201F449BDC00FC58F1 /* View */,
+				0B56BF0B1F43E3B4007D9A96 /* Model */,
+				0B56BF0A1F43DE62007D9A96 /* Extensions */,
+				0B56BF071F437717007D9A96 /* EventScreens */,
+				0B56BF001F4337DD007D9A96 /* EmbeddedStyling */,
+				0BA9614E1F4296A800AEAE98 /* loginScreens */,
+				0B6F59EC1F401EE800E8FD6A /* AppDelegate.swift */,
+				0B6F59F01F401EE800E8FD6A /* Main.storyboard */,
+				0B6F59F31F401EE800E8FD6A /* Assets.xcassets */,
+				0B6F59F51F401EE800E8FD6A /* LaunchScreen.storyboard */,
+				0B6F59F81F401EE800E8FD6A /* Info.plist */,
+				0BD0F6ED1F4C2461003A222C /* GoogleService-Info.plist */,
+			);
+			path = litvoRedo2;
+			sourceTree = "<group>";
+		};
+		0BA9614E1F4296A800AEAE98 /* loginScreens */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A9C541F421188007875B5 /* LoginVC.swift */,
+				0BA9614F1F4296C500AEAE98 /* SignUpVC.swift */,
+			);
+			path = loginScreens;
+			sourceTree = "<group>";
+		};
+		0BD82B201F449BDC00FC58F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BD82B211F449BFC00FC58F1 /* FriendCell.swift */,
+				0B1476E51F45339300ADB47D /* PublicEventCell.swift */,
+				0BE11AB71F49464900183A30 /* NewMessageCell.swift */,
+				0BD0A3291F4B669A00BB8897 /* ChatInputContainer.swift */,
+				0BD0F6F11F4C944D003A222C /* ChatMessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BD82B231F449CC800FC58F1 /* FriendScreens */ = {
+			isa = PBXGroup;
+			children = (
+				0BD82B241F449CE800FC58F1 /* FriendVC.swift */,
+			);
+			path = FriendScreens;
+			sourceTree = "<group>";
+		};
+		55DF73EF95ED7ED3867CF0ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				360C5D6E13CA7BC7952012CD /* Pods-litvoRedo2.debug.xcconfig */,
+				793C8C215A5AE54D8F716F84 /* Pods-litvoRedo2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDB57957D41EAA981FF0F475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90B6FA0DE6A7D7931E4A4161 /* Pods_litvoRedo2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B6F59E81F401EE800E8FD6A /* litvoRedo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6F59FB1F401EE800E8FD6A /* Build configuration list for PBXNativeTarget "litvoRedo2" */;
+			buildPhases = (
+				A2A7BC8B642C018C5906C4EC /* [CP] Check Pods Manifest.lock */,
+				0B6F59E51F401EE800E8FD6A /* Sources */,
+				0B6F59E61F401EE800E8FD6A /* Frameworks */,
+				0B6F59E71F401EE800E8FD6A /* Resources */,
+				6738104182BD34A629EAA505 /* [CP] Embed Pods Frameworks */,
+				22EB578DE3EDB6FFF6907425 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = litvoRedo2;
+			productName = litvoRedo2;
+			productReference = 0B6F59E91F401EE800E8FD6A /* litvoRedo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B6F59E11F401EE700E8FD6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = andrewfoghel;
+				TargetAttributes = {
+					0B6F59E81F401EE800E8FD6A = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 0B6F59E41F401EE700E8FD6A /* Build configuration list for PBXProject "litvoRedo2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B6F59E01F401EE700E8FD6A;
+			productRefGroup = 0B6F59EA1F401EE800E8FD6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B6F59E81F401EE800E8FD6A /* litvoRedo2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B6F59E71F401EE800E8FD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6F59F71F401EE800E8FD6A /* LaunchScreen.storyboard in Resources */,
+				0BD0F6EE1F4C2461003A222C /* GoogleService-Info.plist in Resources */,
+				0B6F59F41F401EE800E8FD6A /* Assets.xcassets in Resources */,
+				0B6F59F21F401EE800E8FD6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22EB578DE3EDB6FFF6907425 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-litvoRedo2/Pods-litvoRedo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6738104182BD34A629EAA505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-litvoRedo2/Pods-litvoRedo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A7BC8B642C018C5906C4EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6F59E51F401EE800E8FD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B56BF041F43381F007D9A96 /* TabVC.swift in Sources */,
+				0B56BF0F1F43E420007D9A96 /* PublicEvent.swift in Sources */,
+				0BE11AB81F49464900183A30 /* NewMessageCell.swift in Sources */,
+				0B31F21E1F493B8900D69019 /* MessageLogVC.swift in Sources */,
+				0BD0A32A1F4B669A00BB8897 /* ChatInputContainer.swift in Sources */,
+				0B31F2221F49401F00D69019 /* ChatLogVC.swift in Sources */,
+				0B56BF021F433800007D9A96 /* NavVC.swift in Sources */,
+				0B1476E61F45339300ADB47D /* PublicEventCell.swift in Sources */,
+				0B31F2201F493FFC00D69019 /* NewMessageVC.swift in Sources */,
+				0B56BF061F433C13007D9A96 /* SetEventVC.swift in Sources */,
+				0B3A9C551F421188007875B5 /* LoginVC.swift in Sources */,
+				0B56BF0D1F43E3CA007D9A96 /* User.swift in Sources */,
+				0BD0F6F21F4C944D003A222C /* ChatMessageCell.swift in Sources */,
+				0BD82B271F449EDA00FC58F1 /* ImageCache.swift in Sources */,
+				0BA961501F4296C500AEAE98 /* SignUpVC.swift in Sources */,
+				0B1476E41F452B8D00ADB47D /* PublicEventsVC.swift in Sources */,
+				0BD82B251F449CE800FC58F1 /* FriendVC.swift in Sources */,
+				0B6F59ED1F401EE800E8FD6A /* AppDelegate.swift in Sources */,
+				0BD0F6F01F4C92CB003A222C /* Message.swift in Sources */,
+				0B56BF091F43DD60007D9A96 /* GMSExtension.swift in Sources */,
+				0BD82B221F449BFC00FC58F1 /* FriendCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B6F59F01F401EE800E8FD6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6F59F11F401EE800E8FD6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B6F59F51F401EE800E8FD6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B6F59F61F401EE800E8FD6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B6F59F91F401EE800E8FD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B6F59FA1F401EE800E8FD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B6F59FC1F401EE800E8FD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360C5D6E13CA7BC7952012CD /* Pods-litvoRedo2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UTM6LELLUH;
+				INFOPLIST_FILE = litvoRedo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrewfoghel.litvoRedo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B6F59FD1F401EE800E8FD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793C8C215A5AE54D8F716F84 /* Pods-litvoRedo2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UTM6LELLUH;
+				INFOPLIST_FILE = litvoRedo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrewfoghel.litvoRedo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B6F59E41F401EE700E8FD6A /* Build configuration list for PBXProject "litvoRedo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6F59F91F401EE800E8FD6A /* Debug */,
+				0B6F59FA1F401EE800E8FD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6F59FB1F401EE800E8FD6A /* Build configuration list for PBXNativeTarget "litvoRedo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6F59FC1F401EE800E8FD6A /* Debug */,
+				0B6F59FD1F401EE800E8FD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B6F59E11F401EE700E8FD6A /* Project object */;
+}
